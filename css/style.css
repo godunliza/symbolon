@@ -13,6 +13,11 @@
 	font-family: Roboto-Thin;
 	src: url(/fonts/Roboto-Thin.ttf);
 }
+html
+{
+	//font-size: 100%;
+
+}
 
 .page
 {
@@ -54,9 +59,13 @@ ul .dot_list
 .page_f
 {
 	
-	background-image: url(../images/f_p_bg.jpg) ;
+	
 	background-size: 100% 100vh;
 	z-index: 1;
+}
+.page_f_bg
+{
+background-image: url(../images/f_p_bg.jpg) ;	
 }
 .page_f.overlay:after
 {
@@ -83,15 +92,14 @@ ul .dot_list
 	margin-top: 21.014640474425500370644922164566%;
 	letter-spacing: 0.1em;
 	font-family: Roboto-Regular;
-	font-size: 1.0625em;
-
+	font-size: 1.0625rem;
 
 }
 .text_zag
 {
-	padding: 0px;
+	
 	font-family: PlayfairDisplay-Regular;
-	font-size: 2.125em;
+	font-size: 2.125rem;
 	letter-spacing: 0.2em;
 
 }
@@ -111,7 +119,7 @@ ul .dot_list
 	
 
 }
-.btn:hover
+.btn,.btn_m:hover
 {
 	
 
@@ -131,7 +139,7 @@ ul .dot_list
 {
 	
 	font-family: Roboto-Regular;
-	font-size: 1.6875em;
+	font-size: 1.6875rem;
 	letter-spacing: 0.05em;
 	height: 42px;
 	
@@ -150,7 +158,7 @@ ul .dot_list
 {
 	width: 100%;
 	font-family: PlayfairDisplay-Regular;
-	font-size: 1.6875em;
+	font-size: 1.6875rem;
 	letter-spacing: 0.2em;
 	display: inline-block;
 	margin-top: 2.9375%;
@@ -179,7 +187,7 @@ ul .dot_list
 .item_text
 {
 	text-align: center;
-	font-size: 0.875em;
+	font-size: 0.875rem;
 	font-family: Roboto-Regular;
 	color: #030e24;
 
@@ -228,16 +236,16 @@ ul .dot_list
 }
 .sl_text{
 	
-	font-size: 0.875em;
+	font-size: 0.875rem;
 	font-family: Roboto-Regular;
-	font-size: 0.875em
+	
 	letter-spacing: 0.1em;
 	
 	
 }
 .fa-chevron-right,.fa-chevron-left.
 {
-	font-size: 1.25em;
+	font-size: 1.25rem;
 }
 .fa-chevron-right,.fa-chevron-left : hover
 {
@@ -246,7 +254,7 @@ ul .dot_list
 .fa-circle{
 
 display: inline-block;
-	font-size: 0.75em;
+	font-size: 0.75rem;
 	margin-left: 1.5em;
 	color: #9c6849;
 
@@ -277,7 +285,7 @@ display: inline-block;
 	}
 .it_4 .fa
 {
-	font-size: 3.125em;
+	font-size: 3.125rem;
 	margin-top: 22.2689076%;
 	margin-bottom: 7.56302521%;
 
@@ -286,7 +294,7 @@ display: inline-block;
 .it_4_text
 {
 
-font-size: 1.0625em;
+font-size: 1.0625rem;
 }
 
 .hide
@@ -296,16 +304,16 @@ font-size: 1.0625em;
 
 .page_4 .btn
 {
-	width: 239px;
+	width: 22.146034099332839140103780578206%;
 	height: 29px;
-	padding-top:13px;
+	padding-top:1.2045959970348406226834692364715%;
 	margin-top: 4.6330615270570793180133432171979%;
 }
 .page_4 .text_btn
 {
 
 color: white;
-font-size: 1.0625em;
+font-size: 1.0625rem;
 
 }
 .cont
@@ -336,9 +344,9 @@ font-size: 1.0625em;
 }
 .pg5_zag
 {
-	margin-top: -217px;
+	margin-top: -24.879243946146182182563204171458%;
 	font-family: PlayfairDisplay-Regular;
-	font-size: 1.625em;
+	font-size: 1.625rem;
 	letter-spacing: 0.2em;
 	display: block;
 	margin-bottom:3.1504818383988139362490733876946%;
@@ -347,9 +355,9 @@ font-size: 1.0625em;
 }
 .list
 {
-	width: 364px;
+	width: 41.732925329019402370751181190833%;
 	font-family: Roboto-Regular;
-	font-size: 0.875em;
+	font-size: 0.875rem;
 	letter-spacing: 0.1em;
 	line-height: 20px;
 
@@ -376,7 +384,7 @@ font-size: 1.0625em;
 	background-size: 100% 100%;
 	margin-top: 8.5248332097850259451445515196442%;
 	margin-left: 19.4959229%;
-
+position: absolute;
 	//display: inline-block;
 }
 .bg6_zag
@@ -384,7 +392,7 @@ font-size: 1.0625em;
 
 	width: 100%;
 	font-family: PlayfairDisplay-Regular;
-	font-size: 1.6875em;
+	font-size: 1.6875rem;
 	letter-spacing: 0.2em;
 	display: inline-block;
 	margin-top: 2.9375%;
@@ -401,7 +409,7 @@ font-size: 1.0625em;
 .t_zag
 {
 	font-family: Roboto-Regular;
-	font-size: 16px;
+	font-size: 1rem;
 	letter-spacing: 0.2em;
 	
 }
@@ -421,7 +429,7 @@ padding-bottom:7.8762045959970348406226834692365%;
 	line-height: 20px;
 	letter-spacing: 0.1em;
 	font-family: Roboto-Thin;
-	font-size: 0.75em;
+	font-size: 0.75rem;
 	letter-spacing: 0.2em;
 	line-height: 21px;
 }
@@ -430,7 +438,7 @@ padding-bottom:7.8762045959970348406226834692365%;
 {
 	height: 77px;
 	width: 100%;
-	font-size: 12px;
+	font-size: 0.75rem;
 	background-color: #da4105;
 	line-height: 20px;
 	letter-spacing: 0.05em;
@@ -460,7 +468,6 @@ float: left;
 {
 	float: right;
 	margin-top: 25px;
-   // margin-top: 66px;
 color: white;
 }
 .foot_cont
